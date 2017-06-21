@@ -14,9 +14,9 @@ public class MailUtil {
     }
     public static String rand(){
     	String str = "";
-		str += (int) (Math.random() * 9 + 1);
+		str += (int) (Math.random() * 9 + 1);//产生一位（1-10）
 		for (int i = 0; i < 5; i++) {
-			str += (int) (Math.random() * 10);
+			str += (int) (Math.random() * 10);//
 		}
 		String num = str;
 		return num;
